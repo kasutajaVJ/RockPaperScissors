@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="user_name_hint">Enter your name</string>
+    <string name="start_btn">Start playing</string>
+    <string name="rock_btn">ROCK</string>
+    <string name="paper_btn">PAPER</string>
+    <string name="scissors_btn">SCISSORS</string>
+    <string name="computer_choice">Computer choice</string>
+    <string name="user_choice_txt">User choice</string>
+    <string name="win_log_txt">You wanna play a game? Choose wisely</string>
+    <string name="end_game">EXIT</string>
+    <string name="enter_name">Enter your name</string>
+</resources>
