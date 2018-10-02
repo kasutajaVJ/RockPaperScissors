@@ -28,7 +28,7 @@ public class GamePage extends AppCompatActivity {
 
     Button rock, paper, scissors, exit;
     ImageView userChoice, computerChoice;
-    TextView log;
+    TextView log, showUserName;
 
     int userScore, computerScore;
 
@@ -42,6 +42,10 @@ public class GamePage extends AppCompatActivity {
         scissors = findViewById(R.id.b_scissors);
         exit = findViewById(R.id.exit_btn);
         log = findViewById(R.id.win_log);
+
+        String user = getUsername();
+        showUserName = findViewById(R.id.show_user_name);
+        showUserName.setText(user + " choise");
 
         userChoice = findViewById(R.id.user_choice);
         computerChoice = findViewById(R.id.computer_choice);
